@@ -7,8 +7,10 @@
     "allowJs": true,
     "moduleResolution": "node",
     "jsx" :"react-jsx",
+    "typeRoots": [ "./node_modules/@types" ],
   },
   "include": [
-    "src"
+    "src",
+    "__tests__",
   ]
 }

@@ -2,12 +2,18 @@
 
 Template for frontend repository with react.
 
-## Usage
+## Usage(Run)
 
 ```
 cd react
 npm i
 npm run serve
+```
+
+## Usage(Test)
+
+```
+npm test
 ```
 
 ## Library initialize
@@ -19,6 +25,8 @@ npm run serve
    npm i -D @types/react
    npm i react-dom
    npm i -D @types/react-dom
+   npm i -D @testing-library/react
+   npm i -D @testing-library/jest-dom
    ```
 
 1. eslint
@@ -32,8 +40,10 @@ npm run serve
 
    ```
    npm i -D jest
+   npm i -D @types/jest
    npx jest --init
    npm i -D ts-node
+   npm i -D ts-jest
    ```
 
 1. prettier
