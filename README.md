@@ -5,14 +5,14 @@ Template for frontend repository with react.
 ## Usage(Run)
 
 ```
-cd react
-npm i
-npm run serve
+docker-compose up -d
 ```
 
 ## Usage(Test)
 
 ```
+cd react
+npm i
 npm test
 ```
 
