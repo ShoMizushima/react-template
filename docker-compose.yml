@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./react:/react
+    working_dir: "/react"
+    command: npm run serve
+    ports:
+      - 8080:8080
